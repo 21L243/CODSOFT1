@@ -1,0 +1,187 @@
+header {
+    background-color: #b84165;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+   nav ul :hover {
+    color: #a1f0e3;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+ 
+  .design img{
+    border-radius: 60px;
+    position: relative;
+    top: -70px;
+    left: 1000px;
+    width: 200px; 
+    border: 2px solid black;
+    height: auto;}
+    body { 
+      overflow-x: hidden; 
+        margin: 0; 
+        padding: 0; 
+    }
+.design{
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149017896.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+background-position: center top; 
+top: -5px; 
+left: 0;
+width: 100%;
+height: calc(50vh - 35px);
+border: 2px solid #b84165;
+}
+.design h1{
+    position: relative;
+    bottom:-80px;
+    left:500px;
+    font-size: 40px;
+  }
+.design2 {
+    position: relative;
+    top: 8px;
+    left:40px;
+    line-height:2.2;
+    text-align: justify;
+    max-width: 800px;
+ }
+  .design2 h2 {
+    background-color: #b84165;
+    display: inline-block; 
+    padding: 10px 25px; 
+    margin-left: 5px; 
+    border-radius: 10px;
+    position: relative;
+    left:320px;
+  }
+  .design2 h3 {
+    position: relative;
+    left: 10px;
+    top:10px;
+  }
+  
+  .design1,
+  .design2 ,
+  .design3,
+  .design4{
+    position: relative;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .design1.visible,
+  .design2.visible,
+  .design3.visible, .design4.visible  {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .design1{
+    line-height:2;
+    text-align: justify;
+    position: relative;
+    left:1090px;
+  }
+  .design1 h2{
+    background-color: #b84165;
+    display: inline-block; 
+    padding: 10px 25px; 
+    left: 80px; 
+    border-radius: 10px;
+    position: relative;
+    top:-280px;
+    
+  }
+  .design1 h3,
+  .design1 p{
+    position: relative;
+    bottom:270px;
+  }
+  .design1 img{
+    position: relative;
+    left:-900px;
+    width:500px;
+    top:-630px;
+    border: 3px solid #b84165;
+  }
+  .design2 img{
+    position: relative;
+    right:-900px;
+    width:600px;
+    top:-500px;
+  }
+  .design3 h2{
+    background-color: #b84165;
+    display: inline-block; 
+    padding: 10px 25px; 
+    left: 350px; 
+    border-radius: 10px;
+    position: relative;
+    top:-530px;
+    }
+ .design3 h3{
+    position: relative;
+    bottom:520px;
+    left: 375px; 
+    line-height:2;
+    text-align: justify;
+ }
+
+.design3 img{
+  position: relative;
+  right:-990px;
+  width:500px;
+  top:-800px;
+  border: 3px solid #b84165;
+}
+.design4 h2{
+  background-color: #b84165;
+    display: inline-block; 
+    padding: 10px 25px; 
+    right:-1200px; 
+    border-radius: 10px;
+    position: relative;
+    top:-720px;
+  }
+.design4 h3,.design4 p{
+  right:-1050px; 
+  position: relative;
+    top:-700px;
+    line-height:2;
+    text-align: justify;
+    width:400px;
+
+}
+.design4 img{
+  position: relative;
+  top:-1100px;
+  width:500px;
+  right:-200px;
+  border: 4px solid #b84165;
+}
